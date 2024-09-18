@@ -1,0 +1,139 @@
+body {
+    font-family: Cairo, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #FFF7E9;
+}
+
+a, input, h1 {
+    font-weight: bold !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.img-thumbnail1 {
+    width: 800px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.img-thumbnail {
+    width: 500px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#contact {
+    color: #FFFFFF;
+}
+
+.contactbg {
+    background-image: url('../pics/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.text-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.details {
+    color:#000;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about {
+    background-color: black;
+    color: #ffff;
+}
+
+img {
+    width: 300px;
+    transition: opacity 1s ease-in-out;
+}
+
+.col-text {
+    -webkit-column-count: 3;
+    column-count: 3;
+}
+
+.skills {
+    background-color: rgba(238,238,238,255);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    font-family: 'Cairo', sans-serif;
+    background-color: #f8f9fa;
+    border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: white !important; /* Text color on hover */
+    background-color: black !important; /* Background color on hover */
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: black !important; /* Brand color on hover */
+}
+
+.navbar-brand {
+    color: #333;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: #333 !important;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #2596be !important;
+    background-color: white !important; /* Background color for active item */
+    border-bottom: 2px solid #2596be;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+textarea.form-control {
+    resize: none;
+}
